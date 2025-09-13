@@ -591,6 +591,14 @@ nav ul li a {
     .trade-right img{
         width: 710px;
     }
+
+    .trade-left h1 {
+        width: 100%;
+    }
+
+    .trade-left p {
+        width: 100%;
+    }
 }
 @media(max-width:978px) {
     .trade-right img{
