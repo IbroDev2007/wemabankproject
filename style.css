@@ -2498,7 +2498,7 @@ nav ul li a {
 }
 
 footer {
-    background-image: url(./images/investbg.png);
+    background-image: url('./images/investbg.png');
     background-repeat: no-repeat;
     background-size: cover;
     padding: 50px 0px 10px 0px;
