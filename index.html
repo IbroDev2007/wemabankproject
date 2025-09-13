@@ -1,0 +1,940 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+        <nav class="navbar navbar-expand-xl d-flex align-items-center justify-content-between">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+       <img src="./images/wemalogo.svg" alt="" class="logo" width="180px" />
+    </a>
+    <div class="menu-wrapper d-flex align-items-center gap-2">
+    <div class="menu-btn1">
+        <a href="" class="login1"><i class="fa-solid fa-briefcase"></i> Login</a>
+    </div>
+    <div class="search">
+          <img src="./images/searchicon.svg" alt="" width="25px" />
+        </div>
+     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    </div>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" href="#" aria-current="page">Wema@80</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link">Personal</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link">Business</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link">SME</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link">ALAT</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link">SARA</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link">Blog</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link">Alat Xplore</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link">Shares</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link">Contact Us</a>
+        </li>
+      </ul>
+    </div>
+    <div class="menu-btn">
+      <a href="" class="online"
+            ><i class="fa-solid fa-briefcase"></i> Online Banking Login</a
+          >
+           <a href="" class="login"
+            ><i class="fa-solid fa-briefcase"></i> Login</a
+          >
+    </div>
+  </div>
+</nav>   
+    </header>
+
+    <section class="header2">
+      <nav>
+        <ul class="right">
+          <li><a href="">About Us</a></li>
+          <li><a href="">Careers</a></li>
+          <li><a href="">Investors Relations</a></li>
+          <li><a href="">Suatainability</a></li>
+          <li><a href="">Resource Center</a></li>
+        </ul>
+        <div class="search">
+          <div class="search-icon">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+        </div>
+      </nav>
+    </section>
+<!-- data-bs-interval="5000" -->
+    <section class="hero">
+      <div class="hero-wrapper">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-touch="true" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="0"
+              class="active special"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+            class="special"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+            class="special"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+            <button
+            class="special"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="3"
+              aria-label="Slide 4"
+            ></button>
+            <button
+            class="special"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="4"
+              aria-label="Slide 5"
+            ></button>
+            <button
+            class="special"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="5"
+              aria-label="Slide 6"
+            ></button>
+            <button
+            class="special"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="6"
+              aria-label="Slide 7"
+            ></button>
+            <button
+            class="special" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7" aria-label="Slide 8"></button>
+             <button
+             class="special"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="8"
+              aria-label="Slide 9"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active first">
+              <div class="hero1 d-flex align-items-center">
+                <div class="left-side">
+                  <h1>Join The Next Generation Banking Revolution</h1>
+                  <p>
+                    The bank where innovation, tech savvy solutions, and
+                    financial freedom collide. Your money, your rules - let's
+                    redefine banking together!
+                  </p>
+                  <a href=""
+                    >Order your card now <i class="fa-solid fa-arrow-right"></i
+                  ></a>
+                </div>
+                <div class="right-side">
+                  <img
+                    src="./images/slide1.png"
+                    alt=""
+                    class="d-block"
+                    width="700px"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item second">
+              <div class="hero1 d-flex align-items-center">
+                <div class="left-side">
+                  <h1>SARA - Customized Solutions For Her</h1>
+                  <p>
+                    Join the SARA community where financial aspirations come to
+                    fruition and discover a personalized touch, offer unique
+                    solutions for each woman's individual financial needs
+                  </p>
+                  <a href=""
+                    >Learn More <i class="fa-solid fa-arrow-right"></i
+                  ></a>
+                </div>
+                <div class="right-side">
+                  <img src="./images/slide2.png" alt="" width="600px" />
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item third">
+              <div class="hero1 d-flex align-items-center">
+                <div class="left-side">
+                  <h1>We Power Your Ambitions One Role At a Time.</h1>
+                  <p>
+                    From dream to dynasty, we're your launchpad. Our tailored
+                    loans and investments fuel your journey, every step of the
+                    way brick by entreprenuiral brick
+                  </p>
+                  <a href=""
+                    >Learn More <i class="fa-solid fa-arrow-right"></i
+                  ></a>
+                </div>
+                <div class="right-side">
+                  <img src="./images/slide3.png" alt="" width="700px" />
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item fourth">
+              <div class="hero1 d-flex align-items-center">
+                <div class="left-side">
+                  <h1>Nuturing Smart Money Kids</h1>
+                  <p>
+                    Empower your child to flourish as a financially savvy hero
+                    with out Royal Kiddies account! This adventure imparts
+                    valuable lessons that accumulate into a lifetime of
+                    financial confidence
+                  </p>
+                  <a href=""
+                    >Learn More <i class="fa-solid fa-arrow-right"></i
+                  ></a>
+                </div>
+                <div class="right-side">
+                  <img src="./images/slide4.png" alt="" width="800px" />
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item fifth">
+              <div class="hero1 d-flex align-items-center">
+                <div class="left-side">
+                  <h1>At Wema Bank, we redefine work</h1>
+                  <p>
+                    It's an adventure in a greater place where every team member
+                    is empowered to thrive, create, and excel, and where
+                    innovation thrives.
+                  </p>
+                  <a href=""
+                    >Learn More <i class="fa-solid fa-arrow-right"></i
+                  ></a>
+                </div>
+                <div class="right-side">
+                  <img src="./images/slide5.png" alt="" width="700px" />
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item sixth">
+              <div class="hero1 d-flex align-items-center">
+                <div class="left-side">
+                  <img src="./images/slide6(left).png" alt=""  width="612px" />
+                </div>
+                <div class="right-side">
+                  <img src="./images/slide6(right).png"  alt="" width="620px" />
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item seventh">
+              <div class="hero1 d-flex align-items-center">
+                <div class="left-side">
+                  <img src="./images/slide7(left).png" alt="" width="540px" />
+                </div>
+                <div class="right-side">
+                  <img src="./images/slide7(right).png" alt=""  width="600px" />
+                </div>
+                <!-- style="border: 2px solid red;" -->
+              </div>
+            </div>
+            <div class="carousel-item eighth">
+              <div class="hero1 d-flex align-items-center">
+                <div class="left-side">
+                  <img src="./images/slide8(left).png" alt="" width="450px" />
+                </div>
+                <div class="right-side">
+                  <img src="./images/slide8(right).png" alt=""  width="550px" />
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item ninth">
+              <div class="hero1 d-flex align-items-center">
+                <div class="left-side">
+                  <h1>Rethink Banking, Embrace Convenience</h1>
+                  <p>
+                    The future of banking is here. We're not just a bank, we're your financial co-pilot, expertly navigating you through the exiting future of money
+                  </p>
+                  <a href=""
+                    >Learn More <i class="fa-solid fa-arrow-right"></i
+                  ></a>
+                </div>
+                <div class="right-side">
+                  <img src="./images/slide9.png" alt="" width="600px" />
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="news">
+        <span class="name">News</span>
+        <marquee behavior="" direction="">Wema Bank Empowers 80 Teenagers At 2025 ALAT Summer Internship Programme  |   FAQ FOR PRIVAT PLACEMENT    |    International Youth Day 2025: Wema Bank Continue</marquee>
+    </section>
+
+    <section class="help">
+        <div class="help-wrapper">
+            <div>
+            <img src="./images/Helpcenter.svg" width="40px" alt="">
+            <p>Help Center</p>
+        </div>
+        <div>
+            <img src="./images/whistle.svg" width="40px" alt="">
+            <p>Whistle Blower</p>
+        </div>
+        <div>
+            <img src="./images/digitalbanking.svg" width="40px" alt="">
+            <p>Digital Banking</p>
+        </div>
+        <div>
+            <img src="./images/faq.svg" width="40px" alt="">
+            <p>FAQs</p>
+        </div>
+        <div>
+            <img src="./images/download.svg" width="30px" alt="">
+            <p>Downloads</p>
+        </div>
+        <div>
+            <img src="./images/Locate.svg" width="40px" alt="">
+            <p>Locate Branch</p>
+        </div>
+        </div>
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+        Quick Links
+      </button>
+    </h2>
+    <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">
+        <ul>
+            <li><a href="">Help Center</a></li>
+            <li><a href="">Whistle Blower</a></li>
+            <li><a href="">Digital Banking</a></li>
+            <li><a href="">FAQs</a></li>
+            <li><a href="">Downloads</a></li>
+            <li><a href="">Loacate Branch</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+    </section>
+
+    <section class="elevate">
+        <div class="elevate-wrapper">
+            <div class="head">
+                <div class="head-left">
+                    <p class="products">Our Products</p>
+                    <h1>Elevate Your Business</h1>
+                    <p class="story">With Wema Bank, you can access a range of financial solutions tailored to your business needs, including loans, investments, and trade finance. Get the resources you need to grow and expand your reach.</p>
+                </div>
+                <div class="head-right">
+                    <img src="./images/elevate(bg).svg" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="grid">
+            <div class="first-row">
+                <div class="personal">
+                    <div class="image">
+                        <img src="./images/personal.png" width="120px"  alt="">
+                    </div>
+                    <h1>Personal Banking</h1>
+                    <p>At Wema Bank, We offer a comprehensive range of personal banking products and services to meet your financial needs</p>
+                    <a href="">Get started <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+                <div class="business">
+                    <div class="image">
+                        <img src="./images/business.svg" width="135px" alt="">
+                    </div>
+                    <h1>Business Banking</h1>
+                    <p>We empower businesses with a comprehensive range of financial solutions, including loans, investments,...</p>
+                    <a href="">Get started <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+                <div class="corporate">
+                    <div class="image">
+                        <img src="./images/corporate.svg" width="130px" alt="">
+                    </div>
+                    <h1>Corporate Banking</h1>
+                    <p>Our expertise in trade finance and global network also enable businesses to expand beyond borders and reach new...</p>
+                    <a href="">Get started <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+            <div class="second-row">
+                <div class="loans">
+                    <div class="image">
+                        <img src="./images/loan.svg" width="120px"  alt="">
+                    </div>
+                    <h1>Loans</h1>
+                    <p>Unlock your financial potential with Wema Bank's extensive range of consumer and business loans. Our flexible and personalized loans options support you i...</p>
+                    <a href="">Get started <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+                <div class="kiddies">
+                    <div class="image"> 
+                        <img src="./images/kiddies.svg" width="90px" alt="">
+                    </div>
+                    <h1>Royal Kiddies</h1>
+                    <p>Our bespoke children's savings account designed to encourage saving and financial prudence from a young age. While providing parents with a convenie...</p>
+                    <a href="">Get started <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+                <div class="ebanking">
+                    <div class="image">
+                        <img src="./images/ebanking.svg" width="115px"  alt="">
+                    </div>
+                    <h1>E-Banking</h1>
+                    <p>We offer a comprehensive E-banking platform, ALAT, providing a range of convenient and secure ways to manag...</p>
+                    <a href="">Get started <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="sme">
+            <div class="sme-wrapper">
+                <img src="./images/smebg.svg" alt="" class="first-image">
+                <img src="./images/smebg.svg" alt="" class="second-image">
+                <div class="sme-left">
+                    <img src="./images/smeimg.jpg" alt="" width="500px">
+                </div>
+                <div class="sme-right">
+                    <img src="./images/business.svg" width="50px" alt="">
+                    <p class="pfirst">SME Banking </p>
+                    <h1>Your Strategic SME Partner</h1>
+                    <p class="psecond">Elevate your Enterprise to new heights with a strategic partner. From strategic insights to cutting-edge tools, we are dedicated to propelling your business forward. Let's venture together towards success!</p>
+                    <a href="">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="partner">
+            <div class="partner-wrapper">
+                <div class="wemapos">
+                    <img src="./images/business.svg" alt="" width="40px">
+                    <h2>Wema POS</h2>
+                    <p>Your partner in seamless and secure POS experiences that ensure client satisfaction and seamless payment processing.</p>
+                </div>
+                <div class="ussd">
+                    <img src="./images/digitalbanking.svg" alt="">
+                    <h2>*945#</h2>
+                    <p>Our USSD Code offers a convenient and accessible way to manage your finances on your mobile phone without needing internet access.</p>
+                </div>
+                <div class="smeloans">
+                    <img src="./images/smeloans.svg" alt="">
+                    <h2>SME Loans</h2>
+                    <p>We offer a variety of SME loan options to help your business grow, each with its own advantages and requirements.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="cards">
+            <div class="cards-wrapper">
+                <div class="card-left">
+                    <img src="./images/customcard.svg" alt="">
+                    <p class="pfirst">Custom Cards</p>
+                    <h1>Experience Individuality in Every Swipe</h1>
+                    <p class="psecond">Make your transactions with our exclusive collection of personalized cards, allowing you to express your unique style and preferences in every financial interaction and transaction you make</p>
+                    <a href="">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+                <div class="card-right">
+                    <img src="./images/cardgif.gif" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="gateway">
+            <div class="gateway-wrapper">
+                <div class="gate-left">
+                    <img src="./images/gateway.png" alt="" width="500px">
+                </div>
+                <div class="gate-right">
+                    <img src="./images/smeloans.svg" width="80px" alt="">
+                    <p class="pfirst">ALATPay</p>
+                    <h1>Your Gateway to Uninterrupted Growth</h1>
+                    <p class="psecond">ALATpay lets businesses collect payments easily from customers via several methods: cards (local and international), bank transfers, phone, NQR, and a dedicated online storefront for displaying and selling products. It's a one-stop platform for seamless digital payments.</p>
+                    <a href="">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="invest">
+      <div class="invest-wrapper">
+        <div class="invest-left">
+          <p class="boss">Investor Relations</p>
+          <h1>Explore the Latest Stories Shaping Our Financial Landscape</h1>
+          <p class="inform">Be informed about our initiatives, partnerships, and the groundbreaking strides we're making in shaping the future of finance and banking.</p>
+          <div class="stats">
+            <div class="top">
+              <div>
+                 <h2>2025-09-12</h2>
+                <p>Trade Date</p>
+              </div>
+              <div>
+                <h2>loading...</h2>
+                <p>Last</p>
+              </div>
+            </div>
+            <div class="bottom">
+              <div>
+                 <h2>loading...</h2>
+                <p>Change</p>
+              </div>
+              <div>
+                <h2>BBB</h2>
+                <p>Our Ratingt</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="invest-right">
+          <img src="./images/investor.jpg" alt="" width="550px">
+        </div>
+      </div>
+
+      <div class="below">
+        <div class="share">
+          <h4>Our Share Price</h4>
+          <p>Track the rhythm of our stock through real-time updates, insightful analysis, and historical trends.</p>
+        </div>
+        <div class="income">
+          <h4>Fixed Income & Ratings</h4>
+          <p>Experience stability and confidence through our Fixed Income alternatives and ratings, a testament to the trust we inspire in the industry.</p>
+        </div>
+        <div class="events">
+          <h4>Events & Presentations</h4>
+          <p>Join us at our exclusive events where industry experts, thought leaders, and financial professionals converge to share valuable insights.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="sustain">
+      <div class="sustain-wrapper">
+          <div class="sustain-left">
+            <img src="./images/sustain.svg" alt="">
+            <p class="pfirst">Sustainability</p>
+            <h1>Championing Responsible Business for a Sustainable Future</h1>
+            <p class="psecond">We are committed to advancing our sustainability initiatives, emphasizing responsible business practices, environmental stewardship, and fostering shared value for our stakeholders</p>
+            <a href="">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+          <div class="sustain-right">
+              <div class="parent">
+                 <img src="./images/one.jpg" alt="" >
+              <img src="./images/second.jpg" alt="" >
+              </div>
+              <div class="child">
+                <img src="./images/third.jpg" alt=""  class="three">
+              <img src="./images/four.jpg" alt=""  class="four">
+              </div>
+          </div>
+      </div>
+
+      <div class="triplets">
+        <div class="triplets-wrapper">
+          <div class="partnership">
+          <img src="./images/corporate.svg" alt="" width="60px" style="margin-bottom: 20px;">
+          <h4>Partnerships</h4>
+          <p>Fostering collaboration for global and corporate goals through a systemic thinking approach.</p>
+        </div>
+        <div class="governance">
+          <img src="./images/governance.svg" alt="" style="margin-bottom: 10px;">
+          <h4>Governance & Reporting</h4>
+          <p>Ensuring integrity, accountability and transparency, we communicate and disclose impact consistently to stakeholders</p>
+        </div>
+        <div class="environment">
+          <img src="./images/sustain.svg" alt="" style="margin-bottom: 10px;">
+          <h4>Environmental Footprint</h4>
+          <p>Prioritizing environmental quality sustains the future, creating a conducive environment for stakeholders and generations.</p>
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonial">
+      <div class="test-head">
+        <p>Testimonial</p>
+        <h2>What Customers Say</h2>
+      </div>
+      <div class="grid-marquee">
+        <div>
+          <p>“I'm grateful for the opportunity; it's not just about the grant, but the potential impact. Almost gave up on my business, but this boost will make a difference.”</p>
+          <h6>Loveth Ugwu</h6>
+        </div>
+        <div>
+          <p>“I'm grateful to wema bank for the impact in the Gen Z's, the sound of ALAT competition has given me a greater platform in the music industry.”</p>
+          <h6>Kareem Olatomiwa</h6>
+        </div>
+        <div>
+          <p>“Thank you immensely from my heart, this vote of support and confidence in my business 'Jute'Ally' fuels my determination to bring it to life.”</p>
+          <h6>Hibaatullahi Adeniyi</h6>
+        </div>
+        <div>
+          <p>“Thank you Wema bank, EDC master card for this opportunity and for awarding me this grant it serves as a motivation to pursue my business.”</p>
+          <h6>Peace Edwins</h6>
+        </div>
+        <div>
+          <p>“Wema bank is a bank that works and the customer service is key and swift.”</p>
+          <h6 style="margin-top: 60px;">Liberty</h6>
+        </div>
+        <div>
+          <p>“I'm grateful for this journey and many thanks thanks to Wema Bank for the opportunity to help women across Africa.”</p>
+          <h6 style="margin-top: 30px;">Jame Agbaohwo</h6>
+        </div>
+      </div>
+    </section>
+
+    <section class="practice">
+      <img src="./images/star.svg" alt="" class="absolute1">
+      <img src="./images/curve.svg" alt="" class="absolute2">
+      <img src="./images/paperplane.svg" alt="" class="absolute3">
+     <div class="upper-region">
+       <span>Personal Banking</span>
+      <img src="./images/checkbox.png" alt="">
+      <span>Business</span>
+     </div>
+      <p class="question">Do you have ALAT? Download Now</p>
+      <div class="downside">
+        <div class="origin">
+          <img src="./images/appstore.png" alt="" width="120px">
+          <img src="./images/googleplay.png" alt="" width="120px">
+        </div>
+        <div>
+          <img src="./images/alat.png" alt="" class="alat">
+        </div>
+        <div class="far-right">
+          <div class="outer">
+            <div class="inner"></div>
+          </div>
+          <p>Simple, Easy and Convenient</p>
+          <button>Learn More</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="blog">
+       <div class="test-head">
+              <p>Blog</p>
+              <h2>Announcements & Articles</h2>
+          </div>
+        <div class="blog-wrapper">
+          <div class="heading-news">
+              <div class="heading-left">
+                  <img src="./images/bigwema.png" alt="" width="450px">
+              </div>
+              <div class="heading-right">
+                  <div class="top">
+                    <span class="one">Press Release</span>
+                    <span class="two">September 11, 2025</span>
+                  </div>
+                  <h1>Wema Bank Concludes ₦150 Billion Rights Issue with CBN & SEC Approval, Surpasses Regulatory Capital Requirement.</h1>
+                  <p>The Bank announces the successful completion of its ₦150 billion Rights Issue, which opened on April 14th,2025, and closed on May 21st,2025. The exercise has received formal approval from the Central Bank of Nigeria (CBN) and the Securities and Exchange Commission.</p>
+                   <button>Read More <i class="fa-solid fa-arrow-right"></i
+                  ></button>
+              </div>
+          </div>
+        </div>
+        <div class="blog-grid">
+          <div class="teenagers">
+            <div class="img-wrapper"></div>
+             <div class="top">
+                  <span class="one">Article</span>
+                  <span class="two">September 4, 2025</span>
+              </div>
+              <h1>Wema Bank Empowers 80 Teenagers At 2025 ALAT Summer Internship Programme</h1>
+              <p>Wema Bank, Nigeria’s most innovative financial institution and pioneer of Africa’s...</p>
+              <button>Read More <i class="fa-solid fa-arrow-right"></i
+                  ></button>
+          </div>
+
+          <div class="private">
+            <div class="img-wrapper2"></div>
+             <div class="top">
+                <span class="one">Announcement</span>
+                <span class="two">August 25, 2025</span>
+             </div>
+             <h1>FAQ FOR PRIVATE PLACEMENT</h1>
+             <p>A Private Placement is a method of raising capital by offering shares of a company...</p>
+             <button>Read More <i class="fa-solid fa-arrow-right"></i
+                  ></button>
+          </div>
+
+          <div class="youth">
+            <div class="img-wrapper3"></div>
+            <div class="top">
+                <span class="one">Article</span>
+                <span class="two">August 18, 2025</span>
+            </div>
+            <h1>International Youth Day 2025: Wema Bank Continues to Drive Societal Impact Through</h1>
+            <p>International Youth Day and the week of activities that often surrounds it is more than a ceremonial period. Its ...</p>
+            <button>Read More <i class="fa-solid fa-arrow-right"></i
+                  ></button>
+          </div>
+        </div>
+    </section>
+
+    <section class="video">
+        <div class="test-head">
+          <p>Video</p>
+          <h2>Building for the future</h2>
+      </div>
+      <div class="video-wrapper">
+        <iframe width="1004" height="565" src="https://www.youtube.com/embed/Mbxsf-P0Td8" title="The Inspiring Journey of the WemaxALAT Hackaholics 4.0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-wrapper">
+        <div class="alone">
+        <img src="./images/footerlogo.svg" alt="logo" width="200px" class="footer-logo">
+        <div>
+          <span><strong>Licensed by CBN</strong></span>
+          <img src="./images/cbnlogo.svg" alt="cbnlogo" width="30px">
+        </div>
+
+        <div class="footer-icons">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-x-twitter"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-linkedin"></i>
+        </div>
+
+        <div class="store">
+          <p>Get ALAT app on</p>
+          <img src="./images/appstore.png" alt="" width="120px">
+          <img src="./images/googleplay.png" alt="" width="120px">
+        </div>
+        <div>
+          <p class="reserved">Wema Bank. All Rights Reserved.</p>
+        </div>
+      </div>
+
+      <div class="footer-grid">
+          <div>
+            <h4>Useful Links</h4>
+            <ul>
+              <li><a href="">About Us</a></li>
+              <li><a href="">Account ReUp</a></li>
+              <li><a href="">ALAT</a></li>
+              <li><a href="">Contact Us</a></li>
+              <li><a href="">Business Banking</a></li>
+              <li><a href="">Hackaholics</a></li>
+              <li><a href="">Personal Banking</a></li>
+              <li><a href="">Sara</a></li>
+              <li><a href="">Whistle Blower</a></li>
+            </ul>
+          </div>
+          <div>
+             <h4>Help & Security</h4>
+            <ul>
+              <li><a href="">Bank Safely</a></li>
+              <li><a href="">Business Continuity Policy Statement</a></li>
+              <li><a href="">Card Control</a></li>
+              <li><a href="">Features and Services Offered</a></li>
+              <li><a href="">Information Security</a></li>
+              <li><a href="">Secure your card</a></li>
+              <li><a href="">Shop Safely Online</a></li>
+              <li><a href="">Whistleblowing Policy</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4>Policies</h4>
+            <ul>
+              <li><a href="">Anti-bribery and Corruption Policy</a></li>
+              <li><a href="">AML/CFT/CPT Policy</a></li>
+              <li><a href="">Data Protection Policy (NDPA)</a></li>
+              <li><a href="">Fraud Management Policy</a></li>
+              <li><a href="">Privacy Policy</a></li>
+              <li><a href="">Risk Management Policy</a></li>
+              <li><a href="">Sanctions Policy</a></li>
+              <li><a href="">Service Management Policy</a></li>
+              <li><a href="">Cybercrime Prohibition & Prevention Policy</a></li>
+            </ul>
+          </div>
+          <div style="min-width: 0;">
+             <h4>Self Service</h4>
+            <ul>
+              <li><a href="">Accessibility</a></li>
+              <li><a href="">Agents</a></li>
+              <li><a href="">ATM'S</a></li>
+              <li><a href="">Branches</a></li>
+              <li><a href="">BVN Enrollment</a></li>
+              <li><a href="">Help & Support</a></li>
+            </ul>
+          </div>
+          <div style=" min-width: 0;">
+            <h4>Rates</h4>
+            <ul>
+              <li><a href="">Annual Audited Financial Statements</a></li>
+              <li><a href="">Governance and Reporting</a></li>
+              <li><a href="">Insider Trading Policy</a></li>
+              <li><a href="">Rating Report</a></li>
+              <li><a href="">Shareholder Information</a></li>
+            </ul>
+          </div>
+          
+          <div class="contact" style=" min-width: 0;flex-wrap: wrap;">
+             <h4>Contact</h4>
+            <ul>
+              <li>+234-803-900-3700</li>
+              <li>+234-01-277-7700-9</li>
+              <li style="word-wrap: break-word;">purpleconnect@wemabank.com</li>
+              <li>54 Marina, Lagos Island Lagos State Nigeria</li>
+            </ul>
+          </div>
+      </div>
+      </div>
+      <div class="queryfooter">
+          <p class="query-reserved">Wema Bank. All Rights Reserved.</p>
+          <div class="query-icons">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-x-twitter"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-linkedin"></i>
+        </div>
+      </div>
+    </footer>
+    <section class="the-end">
+      <p>Wema Bank Plc, Licensed by the Central Bank of Nigeria</p>
+    </section>
+</body>
+
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"
+  ></script>
+</html>
+
+<!-- <div class="footer-grid">
+        <div class="first">
+          <div>
+            <h4>Useful Links</h4>
+            <ul>
+              <li><a href="">About Us</a></li>
+              <li><a href="">Account ReUp</a></li>
+              <li><a href="">ALAT</a></li>
+              <li><a href="">Contact Us</a></li>
+              <li><a href="">Business Banking</a></li>
+              <li><a href="">Hackaholics</a></li>
+              <li><a href="">Personal Banking</a></li>
+              <li><a href="">Sara</a></li>
+              <li><a href="">Whistle Blower</a></li>
+            </ul>
+          </div>
+          <div>
+             <h4>Self Service</h4>
+            <ul>
+              <li><a href="">Accessibility</a></li>
+              <li><a href="">Agents</a></li>
+              <li><a href="">ATM'S</a></li>
+              <li><a href="">Branches</a></li>
+              <li><a href="">BVN Enrollment</a></li>
+              <li><a href="">Help & Support</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="access">
+          <div>
+             <h4>Help & Security</h4>
+            <ul>
+              <li><a href="">Bank Safely</a></li>
+              <li><a href="">Business Continuity Policy Statement</a></li>
+              <li><a href="">Card Control</a></li>
+              <li><a href="">Features and Services Offered</a></li>
+              <li><a href="">Information Security</a></li>
+              <li><a href="">Secure your card</a></li>
+              <li><a href="">Shop Safely Online</a></li>
+              <li><a href="">Whistleblowing Policy</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4>Rates</h4>
+            <ul>
+              <li><a href="">Annual Audited Financial Statements</a></li>
+              <li><a href="">Governance and Reporting</a></li>
+              <li><a href="">Insider Trading Policy</a></li>
+              <li><a href="">Rating Report</a></li>
+              <li><a href="">Shareholder Information</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="gtb">
+          <div>
+            <h4>Policies</h4>
+            <ul>
+              <li><a href="">Anti-bribery and Corruption Policy</a></li>
+              <li><a href="">AML/CFT/CPT Policy</a></li>
+              <li><a href="">Data Protection Policy (NDPA)</a></li>
+              <li><a href="">Fraud Management Policy</a></li>
+              <li><a href="">Privacy Policy</a></li>
+              <li><a href="">Risk Management Policy</a></li>
+              <li><a href="">Sanctions Policy</a></li>
+              <li><a href="">Service Management Policy</a></li>
+              <li><a href="">Cybercrime Prohibition & Prevention Policy</a></li>
+            </ul>
+          </div>
+          <div class="contact">
+             <h4>Contact</h4>
+            <ul>
+              <li>+234-803-900-3700</li>
+              <li>+234-01-277-7700-9</li>
+              <li>purpleconnect@wemabank.com</li>
+              <li>54 Marina, Lagos Island Lagos State Nigeria</li>
+            </ul>
+          </div>
+        </div>
+      </div> -->
