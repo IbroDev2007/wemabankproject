@@ -2677,3 +2677,9 @@ footer {
     font-size: 0.9em;
 }
 
+@media(max-width:416px) {
+    .the-end {
+        font-size: 0.7em;
+    }
+}
+
