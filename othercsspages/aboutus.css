@@ -989,3 +989,8 @@ footer {
         font-size: 0.7em;
     }
 }
+
+.wow:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 9px 0px 0px rgba(0, 0, 0, 0.1);
+}

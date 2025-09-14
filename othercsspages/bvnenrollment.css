@@ -8,6 +8,10 @@
     scroll-behavior: smooth;
 }
 
+a {
+    color: black;
+}
+
 header {
     background-color: white;
     border-bottom: 0.1px solid #3333334a;
@@ -140,6 +144,14 @@ nav ul li a {
     font-weight: 500;
     font-size: 0.9em;
     padding: 5px 15px;
+}
+
+.accordion-header a {
+    color: black;
+}
+
+.jeez {
+    color: red;
 }
 
 @media(max-width:1368px) {
@@ -969,4 +981,9 @@ footer {
     .the-end {
         font-size: 0.7em;
     }
+}
+
+.wow:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 9px 0px 0px rgba(0, 0, 0, 0.1);
 }

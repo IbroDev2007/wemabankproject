@@ -948,3 +948,17 @@ footer {
     }
 }
 
+.wow:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 9px 0px 0px rgba(0, 0, 0, 0.1);
+}
+
+.white{
+    transition: all 1s ease;
+}
+
+.white:hover {
+    background-color: #981D87;
+    color: white;
+}
+

@@ -781,6 +781,12 @@ nav ul li a {
     padding: 10px 0px;
     background-color: white;
     border: 0.1px solid #3333334a;
+    transition: 0.2s all ease;
+}
+
+.help-wrapper div:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 9px 2px 2px rgba(0, 0, 0, 0.1);
 }
 
 .accordion {
@@ -862,6 +868,11 @@ nav ul li a {
     font-size: 0.9em;
 }
 
+.wow:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 9px 0px 0px rgba(0, 0, 0, 0.1);
+}
+
 .head .head-right {
     position: absolute;
     top: 0;
@@ -879,6 +890,25 @@ nav ul li a {
     .head .head-right {
         display: none;
     }
+}
+
+.purple {
+    transition: all 1s ease;
+}
+
+.purple:hover {
+    background-color: white;
+    border: 1px solid #981D87;
+    color: #981D87;
+}
+
+.white{
+    transition: all 1s ease;
+}
+
+.white:hover {
+    background-color: #981D87;
+    color: white;
 }
 
 .grid {
