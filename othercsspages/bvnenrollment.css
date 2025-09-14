@@ -553,7 +553,7 @@ nav ul li a {
     width: 90%;
     margin: auto;
     background-color: white;
-    padding: 20px 20px 20px 20px;
+    padding: 20px 20px 20px 0px;
 }
 
 .trade-left {
@@ -600,7 +600,7 @@ nav ul li a {
     }
 
     .trade-left {
-        width: 95%;
+        width: 10%;
         margin: auto;
         margin-top: 50px;
     }
@@ -617,6 +617,7 @@ nav ul li a {
         width: 100%;
     }
 }
+
 @media(max-width:978px) {
     .trade-right img{
         width: 650px;
@@ -642,7 +643,7 @@ nav ul li a {
         margin: auto;
     }
 
-    .corporate .head {
+    .trade .head {
         width: 90%;
     }
 }
@@ -650,6 +651,10 @@ nav ul li a {
 @media(max-width:698px) {
     .trade-right img{
         width: 470px;
+    }
+
+    .trade-left {
+        width: 100%;
     }
 }
 
